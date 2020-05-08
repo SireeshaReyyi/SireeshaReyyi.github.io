@@ -1,0 +1,170 @@
+body{
+	font-family: "Quicksand", Arial, sans-serif;
+	font-weight: 400;
+  font-size: 15px;
+  line-height: 1.8;
+	color: rgba(0, 0, 0, 0.7); }
+	@media screen and (max-width: 992px) {
+    body {
+		font-size: 16px; }
+}
+
+.parent{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.child{
+	width: 25%;
+	border: 1px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	text-align: center;
+	box-shadow: 0px 8px 8px -8px #000;
+	border-radius: 12px 0px;
+	height: 430px;
+}
+
+
+.child2{
+	width: 25%;
+	border-radius: 10px 0px; 
+}
+
+.role{
+	color: #000;
+	font-style: italic;
+}
+.skills ul li{
+	float:left;
+	padding: 1%;
+}
+.profile{
+	width: 40%;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+}
+
+.link{
+	margin: 1%;
+	text-decoration: none;
+	font-size: 18px;
+	color: #5062b4;
+	font-family: Cambria;
+	padding:  1% 1%
+}
+
+.info{
+	width: 8%;
+}
+
+.contact{
+	text-align: center;
+	
+}
+
+.socialIcon{
+	width: 10%;
+	padding: 1% 1%;
+	
+}
+
+.child2{
+	width: 60%;
+	margin: 1%;
+	padding: 1%;
+	border: 1px solid #ddd;
+	box-shadow: 0px 8px 8px -8px #000;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	color: #000;
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 400;
+  margin: 15px 0 15px 15px; 
+	
+}
+.designation h3{
+	color: #000;
+  font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+  font-weight: 400;
+  margin: 0px 0 15px 0px;
+}
+.child3{
+	width: 90%;
+	margin: 1%;
+	padding: 1%;
+	border: 1px solid #ddd;
+	box-shadow: 0px 8px 8px -8px #000;
+}
+
+ul li{
+	font-size: 18px;
+	margin: 1%;
+}
+
+ul{
+	list-style-type: disc;
+}
+
+table{
+	width: 100%;
+}
+
+thead{
+	background: #000;
+	color: #fff;
+	padding: 1%;
+}
+
+tbody tr:nth-child(odd){
+	background: #ddd;
+}
+
+.table-responsive{
+	overflow-x: auto;
+}
+
+.child2 span{
+	border-radius: 10px;
+	border: 1px solid #5d6d7e;
+	background: #ddd;
+	padding: 1%;
+	margin: 1%;
+	box-shadow: 0px 8px 8px -8px #000;
+}
+
+
+
+/* Small scale devices*/
+@media only screen and (min-width:320px) and (max-width: 480px){
+	.child{
+	width: 90%;
+	border: 1px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	text-align: center;
+	box-shadow: 0px 8px 8px -8px #000;
+	border-radius: 10px 0px;
+}
+
+.child2{
+	width: 90%;
+}
+}
+
+
+/*Medium scale devices*/
+@media only screen and (min-width:481px) and (max-width: 768px){
+	.child{
+	width: 45%;
+	border: 1px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	text-align: center;
+	box-shadow: 0px 8px 8px -8px #000;
+	border-radius: 12px 0px;
+}
+}
